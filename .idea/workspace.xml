@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65f1422-f42f-4622-a4a5-6b7f645d3a98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/class-wp-bootstrap-navwalker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-about-us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.scss" afterDir="false" />
@@ -35,17 +35,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1i7pv0PZurFLafdeQ9n5Bb7hjv1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/inc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -63,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601268710526</updated>
-      <workItem from="1601268711599" duration="7650000" />
+      <workItem from="1601268711599" duration="7836000" />
+      <workItem from="1601281362477" duration="8120000" />
     </task>
     <task id="LOCAL-00001" summary="added basics to start our theme">
       <created>1601272871192</created>
@@ -72,25 +77,38 @@
       <option name="project" value="LOCAL" />
       <updated>1601272871192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="we added a navbar boostrap walker">
+      <created>1601276565276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601276565276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added basics to start our theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added basics to start our theme" />
+    <MESSAGE value="we added a navbar boostrap walker" />
+    <option name="LAST_COMMIT_MESSAGE" value="we added a navbar boostrap walker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="7" key="#PHP" timestamp="1601270040142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="7" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1601270040142" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1601272868549">
+    <state x="333" y="272" key="#WordPress" timestamp="1601281600290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601272868549" />
+    <state x="333" y="272" key="#WordPress/0.0.1366.728@0.0.1366.728" timestamp="1601281600290" />
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1601276563629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601276563629" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1601276002494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -99,13 +117,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601270038081" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1601268779366">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1601282521738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601268779366" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601282521738" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1601276004302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601276004302" />
+    <state x="339" y="166" key="run.anything.popup" timestamp="1601288153285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601288153285" />
   </component>
 </project>

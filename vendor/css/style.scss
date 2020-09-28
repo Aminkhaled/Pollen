@@ -172,6 +172,7 @@ about-us
 */
 .about-us{
   padding: 50px 0;
+  min-height: 500px;
   .about-img{
     position: relative;
     width: 100%;
@@ -780,7 +781,7 @@ contact
 */
 .reservation{
   .jumbotron{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../img/gallery/gallery-2.jpg") no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)) no-repeat fixed;
     background-size: cover;
     height: 500px;
     .for-about{

@@ -36,7 +36,17 @@
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="#" class="img-fluid" alt="logo"></a>
+                            <a href="<?php echo esc_url(home_url());?>">
+                                <?php
+                                $custom_logo_id = get_theme_mod( 'custom_logo' );
+                                $logo = wp_get_attachment_image_src( $custom_logo_id,'full');
+                                if ( has_custom_logo() ) {
+                                    echo '<img src="' . esc_url( $logo[0]) . '" alt="' . get_bloginfo( 'name' ) . '">';
+                                } else {
+                                    echo '<h1>'. get_bloginfo( 'name' ) .'</h1>';
+                                }
+                                ?>
+                            </a>
                         </div>
                         <div class="footer-text">
                             <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -55,14 +65,14 @@
                         <div class="footer-widget-heading">
                             <h3>Useful Links</h3>
                         </div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
+                        <?php
+                        wp_nav_menu( array(
+                            'theme_location'    => 'footer_pollen',
+                            'depth'             => 2,
+                            'menu_class'        => '',
 
-                        </ul>
+                        ) );
+                        ?>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
@@ -93,15 +103,20 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+<!--             -->
+                        <?php
+                        wp_nav_menu( array(
+                            'theme_location'    => 'footer_pollen',
+                            'depth'             => 2,
+                            'container'         => 'div',
+                            'container_class'   => 'footer-menu ',
+                            'container_id'      => '',
+                            'menu_class'        => '',
+
+
+                        ) );
+                        ?>
+
                 </div>
             </div>
         </div>
