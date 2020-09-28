@@ -80,6 +80,7 @@ $mainColor :deepskyblue !important;
     transition:all 1s ease-in-out;
     letter-spacing: 1px;
     font-size: 16px;
+    margin-left: 30px;
 
 
     &:hover{
@@ -1049,7 +1050,7 @@ Posts
 }
 @media (min-width: 768px) and (max-width: 999px){
   .navbar-light .navbar-nav .nav-link{
-    margin-left: 20px;
+    padding-left: 20px;
   }
   .testimonial-section .quote p{
     line-height: 33px;
@@ -1105,7 +1106,7 @@ Posts
     padding: 50px 0;
   }
   .navbar-light .navbar-nav .nav-link{
-    margin-left: 20px;
+    padding-left: 20px;
   }
   .carousel-item{
     height: 40vh;
@@ -1190,7 +1191,7 @@ Posts
     padding: 50px 0;
   }
   .navbar-light .navbar-nav .nav-link{
-    margin-left: 20px;
+    padding-left: 20px;
   }
   .carousel-item{
     height: 40vh;
@@ -1287,7 +1288,7 @@ Posts
 }
 @media (max-width: 400px) {
   .navbar-light .navbar-nav .nav-link{
-    margin-left: 20px;
+    padding-left: 20px;
   }
   .carousel-item{
     height: 60vh;

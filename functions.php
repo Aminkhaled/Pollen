@@ -11,10 +11,17 @@ add_action('after_setup_theme','pollen_supports');
 if(! function_exists('pollen_register_theme')){
     function pollen_register_theme(){
         register_nav_menus(array(
-            'primary_menu' => __('Primary Menu','Pollen'),
-            'footer_menu' => __('Footer Menu','Pollen')
+            'primary_pollen' => __('Primary Menu','Pollen'),
+            'footer_pollen' => __('Footer Menu','Pollen')
 
         ));
     }
     add_action('after_setup_theme','pollen_register_theme');
 }
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+    require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );

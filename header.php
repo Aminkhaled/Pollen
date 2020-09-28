@@ -52,24 +52,17 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-lg-around " id="navbarNav">
-        <ul class="navbar-nav ">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="blog-post.html">Works</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link " href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
-            </li>
-
-        </ul>
-    </div>
+    <?php
+    wp_nav_menu( array(
+        'theme_location'    => 'primary_pollen',
+        'depth'             => 2,
+        'container'         => 'div',
+        'container_class'   => 'collapse navbar-collapse justify-content-lg-around ',
+        'container_id'      => 'navbarNav',
+        'menu_class'        => 'nav navbar-nav',
+        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+        'walker'            => new WP_Bootstrap_Navwalker(),
+    ) );
+    ?>
 </nav>
 <!-- end of Navigation -->
