@@ -2,13 +2,17 @@
 get_header();
 ?>
 <div class="reservation">
-   <?php
-   global $post;
-   $background_image = ( has_post_thumbnail($post->ID) ? wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'page_background' ) : '' );
+<?php
+global $post;
+$background_image = ( has_post_thumbnail($post->ID) ? wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'page_background' ) : '' );
+$page_medium = ( has_post_thumbnail($post->ID) ? wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'page_medium' ) : '' );
 
-
-   ?>
-    <div class="jumbotron" style='background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("<?php echo $background_image[0];?>")) no-repeat fixed;background-size: cover;'>
+?>
+    <div class="jumbotron" style="
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url('<?php echo $background_image[0]?>') no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+">
         <div class="container for-about">
 
                    <h1><?php echo esc_attr( get_the_title() )?></h1>
@@ -26,7 +30,7 @@ get_header();
         <div class="row">
             <div class="col-md-6">
                 <div class="about-img">
-                    <img src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/gallery-4.jpg" alt="about-us">
+                    <img src='<?php echo $page_medium[0];?>' alt="about-us">
                     <div class="background-img"></div>
                 </div>
             </div>
