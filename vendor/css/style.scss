@@ -1015,6 +1015,23 @@ Posts
     visibility: visible;
     overflow: hidden;
     opacity: 1;
+    text-align: center;
+    a{
+      text-decoration: none;
+      color: black;
+      transition: all 1s ease-in-out;
+      &:hover{
+        color: $mainColor;
+      }
+
+    }
+    .post-link{
+      transition: all 1s ease-in-out;
+      &:hover{
+        color: $mainColor;
+        background-color: white;
+      }
+    }
     .item-img{
       border: 2px solid rgba(0,0,0,0.7);
       border-radius: 12px;

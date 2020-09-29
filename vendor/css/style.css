@@ -859,7 +859,19 @@ Posts
     position: static;
     visibility: visible;
     overflow: hidden;
-    opacity: 1; }
+    opacity: 1;
+    text-align: center; }
+    .posts .item a {
+      text-decoration: none;
+      color: black;
+      transition: all 1s ease-in-out; }
+      .posts .item a:hover {
+        color: deepskyblue !important; }
+    .posts .item .post-link {
+      transition: all 1s ease-in-out; }
+      .posts .item .post-link:hover {
+        color: deepskyblue !important;
+        background-color: white; }
     .posts .item .item-img {
       border: 2px solid rgba(0, 0, 0, 0.7);
       border-radius: 12px;
