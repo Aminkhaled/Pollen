@@ -85,8 +85,7 @@
                         </div>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="text" placeholder="Email Address">
-                                <button><i class="fa fa-telegram"></i></button>
+                               <?php echo do_shortcode('[wpforms id="41"]')?>
                             </form>
                         </div>
                     </div>
@@ -99,7 +98,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2020, All Right Reserved <a href="https://github.com/Aminkhaled">AmenKhaled</a></p>
+                        <p>Copyright &copy; 2020, All Right Reserved <a href="#">ActivePollen</a></p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">

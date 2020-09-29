@@ -38,7 +38,7 @@
 </svg>
 </div>
 <nav class="navbar navbar-expand-lg  navbar-light ">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo esc_url(home_url());?>">
         <?php
         $custom_logo_id = get_theme_mod( 'custom_logo' );
         $logo = wp_get_attachment_image_src( $custom_logo_id,'full');

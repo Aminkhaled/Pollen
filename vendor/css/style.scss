@@ -656,7 +656,8 @@ testomnials
     background: $mainColor;
     padding: 13px 20px;
     border: 1px solid $mainColor;
-    top: 0;
+    top: 33px;
+    color: white;
   }
   .subscribe-form button i {
     color: #fff;
@@ -781,7 +782,9 @@ contact
 */
 .reservation{
   .jumbotron{
-
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(../img/gallery/gallery-5.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 500px;
     .for-about{
       text-align: center;
       margin-top: 12%;
@@ -1382,4 +1385,14 @@ Posts
     grid-gap: 0;
     justify-content: center;
   }
+}
+button#wpforms-submit-41{
+  color: white;
+  position: absolute;
+  top: 33px;
+}
+.subscribe-form button {
+  color: white;
+  position: absolute;
+  top: 33px;
 }

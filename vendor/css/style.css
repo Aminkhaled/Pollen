@@ -564,7 +564,8 @@ testomnials
   background: deepskyblue !important;
   padding: 13px 20px;
   border: 1px solid deepskyblue !important;
-  top: 0; }
+  top: 33px;
+  color: white; }
 
 .subscribe-form button i {
   color: #fff;
@@ -658,26 +659,30 @@ video {
 contact
 =============
 */
-.reservation .jumbotron .for-about {
-  text-align: center;
-  margin-top: 12%; }
-.reservation .jumbotron h1 {
-  color: white;
-  font-family: 'Ruthie', cursive;
-  font-size: 6rem; }
-  .reservation .jumbotron h1:hover {
-    color: deepskyblue !important;
-    transform: scale(1.3);
-    transition: 1s; }
-.reservation .jumbotron p {
-  font-size: 2.5rem;
-  color: white;
-  text-transform: capitalize;
-  font-family: 'Ruthie', cursive; }
-  .reservation .jumbotron p:hover {
-    color: deepskyblue !important;
-    transform: scale(1.3);
-    transition: 1s; }
+.reservation .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/gallery/gallery-5.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 500px; }
+  .reservation .jumbotron .for-about {
+    text-align: center;
+    margin-top: 12%; }
+  .reservation .jumbotron h1 {
+    color: white;
+    font-family: 'Ruthie', cursive;
+    font-size: 6rem; }
+    .reservation .jumbotron h1:hover {
+      color: deepskyblue !important;
+      transform: scale(1.3);
+      transition: 1s; }
+  .reservation .jumbotron p {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Ruthie', cursive; }
+    .reservation .jumbotron p:hover {
+      color: deepskyblue !important;
+      transform: scale(1.3);
+      transition: 1s; }
 
 .pb-100 {
   padding-bottom: 100px; }
@@ -1197,5 +1202,14 @@ Posts
     grid-template-columns: repeat(1, 300px);
     grid-gap: 0;
     justify-content: center; } }
+button#wpforms-submit-41 {
+  color: white;
+  position: absolute;
+  top: 33px; }
+
+.subscribe-form button {
+  color: white;
+  position: absolute;
+  top: 33px; }
 
 /*# sourceMappingURL=style.css.map */

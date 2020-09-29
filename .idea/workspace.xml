@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65f1422-f42f-4622-a4a5-6b7f645d3a98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/page-contact-us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css.map" afterDir="false" />
@@ -68,7 +71,8 @@
       <updated>1601268710526</updated>
       <workItem from="1601268711599" duration="7836000" />
       <workItem from="1601281362477" duration="8213000" />
-      <workItem from="1601295342093" duration="2386000" />
+      <workItem from="1601295342093" duration="5980000" />
+      <workItem from="1601359465837" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="added basics to start our theme">
       <created>1601272871192</created>
@@ -91,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601289607676</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished about-us">
+      <created>1601297965711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601297965711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +113,8 @@
     <MESSAGE value="added basics to start our theme" />
     <MESSAGE value="we added a navbar boostrap walker" />
     <MESSAGE value="added footer.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="added footer.php" />
+    <MESSAGE value="finished about-us" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished about-us" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="7" key="#PHP" timestamp="1601270040142">
@@ -113,10 +125,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="333" y="272" key="#WordPress/0.0.1366.728@0.0.1366.728" timestamp="1601281600290" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1601289605489">
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1601297962921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601289605489" />
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601297962921" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1601276002494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -125,17 +137,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601270038081" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1601282521738">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1601373324829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601282521738" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601373324829" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1601276004302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601276004302" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601297968971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601297968971" />
     <state x="339" y="166" key="run.anything.popup" timestamp="1601297407244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601297407244" />
   </component>
+  <component name="WordPressConfiguration" doNotAskAgain="true" />
 </project>
