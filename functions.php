@@ -8,7 +8,10 @@ function pollen_supports(){
     add_theme_support('post_formats');
     add_image_size( 'page_background', 2560 , 1707 , true );
     add_image_size( 'page_medium', 540 , 360 , true );
-    add_image_size('post_image','745','345',true);
+    add_image_size('post_image',745,345,true);
+    add_image_size('posts_images',345,145,true);
+
+
 
 }
 add_action('after_setup_theme','pollen_supports');
@@ -30,3 +33,11 @@ function register_navwalker(){
     require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+
+function excerpt($num) {
+    $limit = $num+1;
+    $excerpt = explode(' ', get_the_excerpt(), $limit);
+    array_pop($excerpt);
+    $excerpt = implode(" ",$excerpt)."... (<a href='" .get_permalink($post->ID) ." '>Read more</a>)";
+    echo $excerpt;
+}
