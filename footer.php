@@ -7,7 +7,10 @@
                         <i class="fa fa-map-marker"></i>
                         <div class="cta-text">
                             <h4>Find us</h4>
-                            <span>Maadi</span>
+                            <span>
+                                114 El Haram St, Beside El Haram Hospital,
+                                First Floor Apartment 111, Giza, Egypt
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -16,7 +19,7 @@
                         <i class="fa fa-phone"></i>
                         <div class="cta-text">
                             <h4>Call us</h4>
-                            <span>+201153496372</span>
+                            <span>+201100268782</span>
                         </div>
                     </div>
                 </div>

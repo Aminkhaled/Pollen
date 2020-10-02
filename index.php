@@ -84,13 +84,11 @@ get_header();
                 <div class="about-caption">
                     <h1>The power of Nature</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam interdum in tortor sit amet efficitur. In at venenatis massa.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam interdum in tortor sit amet efficitur. In at venenatis massa.
+                        We aim to produce natural preparations from plants pollen using advanced scientific techniques.
+                        These preparations have no sideeffects as chemical medicine
 
                     </p>
-                    <a href="about-us.html">About us <i class="fa fa-angle-right"></i></a>
+                    <a href="<?php echo get_permalink(get_page_by_path('about-us'));?>">About us </a>
                 </div>
             </div>
             <!--        col-->

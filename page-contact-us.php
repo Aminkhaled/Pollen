@@ -43,12 +43,14 @@ get_header();?>
                 <div class="single-contact">
                     <i class="fa fa-map-marker"></i>
                     <h5>Address</h5>
-                    <p>Maadi</p>
+                    <p>
+                        114 El Haram St, Beside El Haram Hospital, First Floor Apartment 111, Giza, Egypt.
+                    </p>
                 </div>
                 <div class="single-contact">
                     <i class="fa fa-phone"></i>
-                    <h5>Phone</h5>
-                    <p>+201153496372</p>
+                    <h5>Telephone/Fax</h5>
+                    <p>+(202)37714600</p>
                 </div>
                 <div class="single-contact">
                     <i class="fa fa-envelope"></i>

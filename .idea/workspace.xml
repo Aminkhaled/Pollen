@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65f1422-f42f-4622-a4a5-6b7f645d3a98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/blog-post.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact-us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/54ec09fd1c7446ad89c185923c68f44f405e9ed2/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/css/blog-post.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/blog-post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/css/blog-post.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/blog-post.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/css/blog-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/blog-post.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.scss" afterDir="false" />
@@ -68,7 +76,17 @@
       <workItem from="1601268711599" duration="7836000" />
       <workItem from="1601281362477" duration="8213000" />
       <workItem from="1601295342093" duration="5980000" />
-      <workItem from="1601359465837" duration="10140000" />
+      <workItem from="1601359465837" duration="10469000" />
+      <workItem from="1601389479734" duration="379000" />
+      <workItem from="1601392784044" duration="565000" />
+      <workItem from="1601450933981" duration="4653000" />
+      <workItem from="1601474288006" duration="1575000" />
+      <workItem from="1601478808388" duration="597000" />
+      <workItem from="1601500463533" duration="596000" />
+      <workItem from="1601555930984" duration="1016000" />
+      <workItem from="1601569317072" duration="843000" />
+      <workItem from="1601572532802" duration="613000" />
+      <workItem from="1601615306100" duration="1623000" />
     </task>
     <task id="LOCAL-00001" summary="added basics to start our theme">
       <created>1601272871192</created>
@@ -112,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601380891804</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished alhamdlah 1">
+      <created>1601387254434</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601387254434</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +151,8 @@
     <MESSAGE value="finished about-us" />
     <MESSAGE value="finished single.php page" />
     <MESSAGE value="finished alhamdlah" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished alhamdlah" />
+    <MESSAGE value="finished alhamdlah 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished alhamdlah 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="7" key="#PHP" timestamp="1601270040142">
@@ -137,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="333" y="272" key="#WordPress/0.0.1366.728@0.0.1366.728" timestamp="1601281600290" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1601380890502">
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1601387252780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601380890502" />
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601387252780" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1601276002494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -157,10 +183,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601276004302" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601380901579">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601389511515">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601380901579" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601389511515" />
     <state x="339" y="166" key="run.anything.popup" timestamp="1601297407244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

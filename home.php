@@ -138,7 +138,10 @@ endif;
                         <i class="fa fa-map-marker"></i>
                         <div class="cta-text">
                             <h4>Find us</h4>
-                            <span>Maadi</span>
+                            <span>
+                                114 El Haram St, Beside El Haram Hospital,
+                                First Floor Apartment 111, Giza, Egypt
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -147,7 +150,7 @@ endif;
                         <i class="fa fa-phone"></i>
                         <div class="cta-text">
                             <h4>Call us</h4>
-                            <span>+201153496372</span>
+                            <span>+201100268782</span>
                         </div>
                     </div>
                 </div>
@@ -167,7 +170,17 @@ endif;
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="#" class="img-fluid" alt="logo"></a>
+                            <a href="<?php echo esc_url(home_url());?>">
+                                <?php
+                                $custom_logo_id = get_theme_mod( 'custom_logo' );
+                                $logo = wp_get_attachment_image_src( $custom_logo_id,'full');
+                                if ( has_custom_logo() ) {
+                                    echo '<img src="' . esc_url( $logo[0]) . '" alt="' . get_bloginfo( 'name' ) . '">';
+                                } else {
+                                    echo '<h1>'. get_bloginfo( 'name' ) .'</h1>';
+                                }
+                                ?>
+                            </a>
                         </div>
                         <div class="footer-text">
                             <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -186,14 +199,14 @@ endif;
                         <div class="footer-widget-heading">
                             <h3>Useful Links</h3>
                         </div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
+                        <?php
+                        wp_nav_menu( array(
+                            'theme_location'    => 'footer_pollen',
+                            'depth'             => 2,
+                            'menu_class'        => '',
 
-                        </ul>
+                        ) );
+                        ?>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
@@ -206,8 +219,7 @@ endif;
                         </div>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="text" placeholder="Email Address">
-                                <button><i class="fa fa-telegram"></i></button>
+                                <?php echo do_shortcode('[wpforms id="41"]')?>
                             </form>
                         </div>
                     </div>
@@ -220,24 +232,30 @@ endif;
             <div class="row">
                 <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2020, All Right Reserved <a href="https://github.com/Aminkhaled">AmenKhaled</a></p>
+                        <p>Copyright &copy; 2020, All Right Reserved <a href="#">ActivePollen</a></p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+                    <!--             -->
+                    <?php
+                    wp_nav_menu( array(
+                        'theme_location'    => 'footer_pollen',
+                        'depth'             => 2,
+                        'container'         => 'div',
+                        'container_class'   => 'footer-menu ',
+                        'container_id'      => '',
+                        'menu_class'        => '',
+
+
+                    ) );
+                    ?>
+
                 </div>
             </div>
         </div>
     </div>
 </footer>
+
 <script src="<?php bloginfo('template_directory'); ?>/vendor/js/jquery.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/vendor/js/propper.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/vendor/js/bootstrap.min.js"></script>

@@ -453,7 +453,8 @@ testomnials
 
 .cta-text {
   padding-left: 15px;
-  display: inline-block; }
+  display: block;
+  margin-left: 30px; }
 
 .cta-text h4 {
   color: #fff;
@@ -833,7 +834,7 @@ Posts
     padding: 3em 0;
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(6, 120px);
+    grid-template-columns: repeat(4, 200px);
     grid-gap: 20px;
     text-align: center;
     justify-content: center; }
@@ -939,7 +940,7 @@ Posts
     padding: 3em 0;
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(3, 120px);
+    grid-template-columns: repeat(3, 200px);
     grid-gap: 20px;
     text-align: center;
     justify-content: center; }
@@ -1020,7 +1021,7 @@ Posts
     margin-top: 380px; }
 
   .posts ul {
-    grid-template-columns: repeat(3, 120px); }
+    grid-template-columns: repeat(2, 200px); }
 
   .posts #filter {
     display: grid;

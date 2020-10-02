@@ -51,7 +51,7 @@ $page_medium = ( has_post_thumbnail($post->ID) ? wp_get_attachment_image_src( ge
                         ?>
 
 
-                    <a href="#" class="about-btn">Know more</a>
+                    <a href="<?php echo get_permalink(get_page_by_path('works'));?>" class="about-btn">Know more</a>
                 </div>
             </div>
         </div>
