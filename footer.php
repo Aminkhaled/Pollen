@@ -52,8 +52,7 @@
                             </a>
                         </div>
                         <div class="footer-text">
-                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                            <p> We aim to produce natural preparations from plants pollen using advanced scientific techniques. These preparations have no sideeffects as chemical medicine </p>
                         </div>
                         <div class="footer-social-icon">
                             <span>Follow us</span>

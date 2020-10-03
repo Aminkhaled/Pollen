@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto:400,700');
-$mainColor :deepskyblue !important;
+$mainColor :rgb(17,137,140) !important;
 
 *,body{
   margin: 0;
@@ -84,7 +84,7 @@ $mainColor :deepskyblue !important;
 
 
     &:hover{
-       color: deepskyblue !important;
+       color: rgb(17,137,140) !important;
       background-color: #FFFFFF;
     }
   }
@@ -100,7 +100,7 @@ $mainColor :deepskyblue !important;
       color: white;
     }
     &:hover{
-      background-color: deepskyblue !important;;
+      background-color: rgb(17,137,140) !important;
     }
   }
   .location{
@@ -183,7 +183,7 @@ about-us
     }
     .background-img{
       width: 121%;
-      background: deepskyblue;
+      background: rgb(17,137,140) !important;
       position: absolute;
       left: -92px;
       content: "'";
@@ -197,7 +197,7 @@ about-us
      h2{
        font-size: 40px;
        font-weight: 700;
-       color: deepskyblue;
+       color: rgb(17,137,140) !important;
      }
      p{
        margin-left: 20px;
@@ -207,7 +207,7 @@ about-us
      a.about-btn{
        color: white;
        padding: 15px 15px;
-       background-color: deepskyblue;
+       background-color: rgb(17,137,140) !important;
        border-radius: 30px;
      }
    }
@@ -334,7 +334,7 @@ testomnials
   --light-red:#f3ac99;
   --light-teal:#a6c8cc;
   --light-gray:#ddd5d6;
-  --theme-color2: deepskyblue;
+  --theme-color2: rgb(17,137,140) !important;
 }
 .site-logo {
   width: 218.33px !important;
@@ -783,7 +783,7 @@ contact
 */
 .reservation{
   .jumbotron{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(../img/gallery/gallery-5.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(17,137,140,0.9),rgba(17,137,140,0.8)),url(../img/gallery/gallery-5.jpg) no-repeat fixed;
     background-size: cover;
     height: 500px;
     .for-about{
@@ -984,7 +984,7 @@ Posts
 
 
   ul li {
-    background: deepskyblue;
+    background: #11898c !important;
     color: #fff;
     font-size: 1.2em;
     padding: .4em 0;
@@ -1001,7 +1001,7 @@ Posts
 
   .current,
   li:hover {
-    background: #333;
+    background: #333 !important;
     color: #fff;
   }
 
@@ -1060,7 +1060,7 @@ Posts
 @media (min-width: 1000px) and (max-width: 1199px){
   .about-us .about-img .background-img {
     width: 130%;
-    background: deepskyblue;
+    background: rgb(17,137,140) !important;
     position: absolute;
     left: -92px;
     content: "'";
@@ -1098,7 +1098,7 @@ Posts
   }
   .about-us .about-img .background-img {
     width: 139%;
-    background: deepskyblue;
+    background: rgb(17,137,140) !important;
     position: absolute;
     left: -92px;
     content: "'";
@@ -1185,7 +1185,7 @@ Posts
   }
   .about-us .about-img .background-img {
     width: 82%;
-    background: deepskyblue;
+    background: rgb(17,137,140) !important;
     position: absolute;
     left: 39px;
     content: "'";
@@ -1276,7 +1276,7 @@ Posts
   }
   .about-us .about-img .background-img {
     width: 82%;
-    background: deepskyblue;
+    background: rgb(17,137,140) !important;
     position: absolute;
     left: 39px;
     content: "'";
@@ -1374,7 +1374,7 @@ Posts
   }
   .about-us .about-img .background-img {
     width: 82%;
-    background: deepskyblue;
+    background: rgb(17,137,140) !important;
     position: absolute;
     left: 39px;
     content: "'";

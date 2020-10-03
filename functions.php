@@ -8,7 +8,7 @@ function pollen_supports(){
     add_theme_support('post_formats');
     add_image_size( 'page_background', 2560 , 1707 , true );
     add_image_size( 'page_medium', 540 , 360 , true );
-    add_image_size('post_image',745,345,true);
+    add_image_size('post_product_image',1000,1200,true);
     add_image_size('posts_images',345,145,true);
 
 

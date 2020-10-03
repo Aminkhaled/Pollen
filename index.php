@@ -26,9 +26,8 @@ get_header();
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="h3-responsive" >Power of The Nature</h2>
                     <p class="lead" >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam interdum in tortor sit amet efficitur. In at venenatis massa.
-                        Donec commodo dictum malesuada. Ut hendrerit dui quis lorem fermentum pretium.
+                        Nature is a powerful form of therapy and healing in and of itself,
+                        and it seems that we have forgotten the restorative power that it holds and always offers without asking for anything in return.
                     </p>
 
                 </div>
@@ -42,10 +41,7 @@ get_header();
             <div class="carousel-caption d-none d-md-block">
                 <h2 class="display-4">Skin caring</h2>
                 <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam interdum in tortor sit amet efficitur. In at venenatis massa.
-                    Donec commodo dictum malesuada. Ut hendrerit dui quis lorem fermentum pretium.
-                </p>
+                    Skin is composed of two layers The external layer which is called epidermis The internal layer called edema.                </p>
             </div>
         </div>
         <!-- /.Third slide -->
@@ -53,11 +49,9 @@ get_header();
         <!-- Third slide -->
         <div class="carousel-item item-3" >
             <div class="carousel-caption d-none d-md-block">
-                <h2 class="display-4">Skin caring</h2>
+                <h2 class="display-4">Hair caring</h2>
                 <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam interdum in tortor sit amet efficitur. In at venenatis massa.
-                    Donec commodo dictum malesuada. Ut hendrerit dui quis lorem fermentum pretium.
+                    Anti Hair loss Lotion For strengthening hair roots Do not worry, you can stop hair loss
                 </p>
             </div>
         </div>
@@ -128,17 +122,17 @@ get_header();
             <div class="swiper-container gallery-thumbs">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class="u3" src="https://md-aqil.github.io/images/2091127763_1_1_1.jpg" alt="">
+                        <img class="u3" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="u1" src="https://md-aqil.github.io/images/beautiful-beauty-face-2657838.jpg" alt="">
+                        <img class="u1" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-3.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="u2" src="https://md-aqil.github.io/images/attractive-beautiful-beauty-1986684.jpg" alt="">
+                        <img class="u2" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-1.jpg" alt="">
                     </div>
 
                     <div class="swiper-slide">
-                        <img class="u4" src="https://md-aqil.github.io/images/beautiful-beauty-face-2657838.jpg" alt="">
+                        <img class="u4" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-3.jpg" alt="">
                     </div>
 
                 </div>
@@ -153,12 +147,10 @@ get_header();
                         <div class="quote">
                             <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
                             <p>
-                                “This is best and biggest unified platform
-                                for instant online admission. We can easily
-                                take admission for any course in any institute..“
+                                “Skin is composed of two layers The external layer which is called epidermis The internal layer called edema.“
                             </p>
-                            <div class="name">-Ramkishor Verma-</div>
-                            <div class="designation">University Student</div>
+                            <div class="name">Skin Care</div>
+
 
                         </div>
                     </div>
@@ -167,44 +159,37 @@ get_header();
                             <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
 
                             <p>
-                                “This is best and biggest unified platform
-                                for instant online admission. We can easily
-                                take admission for any course in any institute..“
+                                “The product consists of the pollens of the plant society of Althaea spp dispersed in the seed oil of the same plant.“
                             </p>
-                            <div class="name">-Ramkishor Verma-</div>
-                            <div class="designation">University Student</div>
+                            <div class="name">Hair Graying</div>
+<!--                            <div class="designation">University Student</div>-->
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="quote">
+                            <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                            <p>
+                                “The product consists of the pollens of the plant society of Althaea spp dispersed in the seed oil of the same plant.“
+                            </p>
+                            <div class="name">Hair Graying</div>
+                            <!--                            <div class="designation">University Student</div>-->
 
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="quote">
                             <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
-
                             <p>
-                                “This is best and biggest unified platform
-                                for instant online admission. We can easily
-                                take admission for any course in any institute..“
+                                “Skin is composed of two layers The external layer which is called epidermis The internal layer called edema.“
                             </p>
-                            <div class="name">-Ramkishor Verma-</div>
-                            <div class="designation">University Student</div>
+                            <div class="name">Skin Care</div>
+
 
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="quote">
-                            <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
-
-                            <p>
-                                “This is best and biggest unified platform
-                                for instant online admission. We can easily
-                                take admission for any course in any institute..“
-                            </p>
-                            <div class="name">-Ramkishor Verma-</div>
-                            <div class="designation">University Student</div>
-
-                        </div>
-                    </div>
-
                 </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination swiper-pagination-white"></div>

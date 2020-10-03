@@ -104,11 +104,18 @@
                         $category_name = $category_object[0]->name;
                         ?>
                     <div class="item" data-food="<?php echo $category_name ?>">
-                        <div class="item-img">
-                            <a href="<?php echo get_permalink($post->ID); ?>">
-                                <?php echo the_post_thumbnail('posts_images'); ?>
-                            </a>
-                        </div>
+                        <?php
+                        if(has_post_thumbnail()){
+                            ?>
+                            <div class="item-img">
+                                <a href="<?php echo get_permalink($post->ID); ?>">
+                                    <?php echo the_post_thumbnail('posts_images'); ?>
+                                </a>
+                            </div>
+                        <?php
+                        }
+                        ?>
+
                         <div>
                           <a href="<?php echo get_permalink($post->ID) ?>">  <h3><?php echo the_title();?></h3></a>
                             <a href="<?php echo get_permalink($post->ID) ?>">

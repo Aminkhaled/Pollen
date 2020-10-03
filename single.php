@@ -43,7 +43,7 @@
     while ( have_posts() ) : the_post();
     ?>
     <div class="c-article__header">
-       <?php the_post_thumbnail('post_image'); ?>
+       <?php the_post_thumbnail('post_product_image'); ?>
     </div>
 
     <div class="c-article__body">

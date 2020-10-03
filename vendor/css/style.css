@@ -7,7 +7,7 @@
   box-sizing: border-box; }
 
 .loader {
-  background-color: deepskyblue !important;
+  background-color: #11898c !important;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -50,7 +50,7 @@
   padding: 10px 0;
   z-index: 3333;
   border-bottom: none !important;
-  background-color: deepskyblue !important; }
+  background-color: #11898c !important; }
   .navbar .navbar-brand {
     margin-left: 40px; }
     .navbar .navbar-brand h2 {
@@ -67,7 +67,7 @@
     font-size: 16px;
     margin-left: 30px; }
     .navbar ul li a:hover {
-      color: deepskyblue !important;
+      color: #11898c !important;
       background-color: #FFFFFF; }
   .navbar .navbar-toggler {
     border: 1px solid #fff !important;
@@ -79,7 +79,7 @@
     .navbar .navbar-toggler .span {
       color: white; }
     .navbar .navbar-toggler:hover {
-      background-color: deepskyblue !important; }
+      background-color: #11898c !important; }
   .navbar .location {
     border-radius: 50px;
     border: 1px solid white;
@@ -145,7 +145,7 @@ about-us
       z-index: 20; }
     .about-us .about-img .background-img {
       width: 121%;
-      background: deepskyblue;
+      background: #11898c !important;
       position: absolute;
       left: -92px;
       content: "'";
@@ -157,7 +157,7 @@ about-us
     .about-us .about-caption h2 {
       font-size: 40px;
       font-weight: 700;
-      color: deepskyblue; }
+      color: #11898c !important; }
     .about-us .about-caption p {
       margin-left: 20px;
       margin-top: 20px;
@@ -165,7 +165,7 @@ about-us
     .about-us .about-caption a.about-btn {
       color: white;
       padding: 15px 15px;
-      background-color: deepskyblue;
+      background-color: #11898c !important;
       border-radius: 30px; }
 
 /*
@@ -235,8 +235,8 @@ about-us
     .about .about-caption a {
       padding: 15px 30px;
       color: #FFFFFF;
-      background-color: deepskyblue !important;
-      border: 1px solid deepskyblue !important;
+      background-color: #11898c !important;
+      border: 1px solid #11898c !important;
       border-radius: 30px; }
 
 /*
@@ -252,7 +252,7 @@ testomnials
   --light-red: #f3ac99;
   --light-teal: #a6c8cc;
   --light-gray: #ddd5d6;
-  --theme-color2: deepskyblue; }
+  --theme-color2: #11898c !important; }
 
 .site-logo {
   width: 218.33px !important;
@@ -446,7 +446,7 @@ testomnials
   border-bottom: 1px solid #373636; }
 
 .single-cta i {
-  color: deepskyblue !important;
+  color: #11898c !important;
   font-size: 30px;
   float: left;
   margin-top: 8px; }
@@ -533,7 +533,7 @@ testomnials
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: deepskyblue !important; }
+  background: #11898c !important; }
 
 .footer-widget ul li {
   display: inline-block;
@@ -542,7 +542,7 @@ testomnials
   margin-bottom: 12px; }
 
 .footer-widget ul li a:hover {
-  color: deepskyblue !important; }
+  color: #11898c !important; }
 
 .footer-widget ul li a {
   color: #878787;
@@ -562,9 +562,9 @@ testomnials
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: deepskyblue !important;
+  background: #11898c !important;
   padding: 13px 20px;
-  border: 1px solid deepskyblue !important;
+  border: 1px solid #11898c !important;
   top: 33px;
   color: white; }
 
@@ -583,14 +583,14 @@ testomnials
   color: #878787; }
 
 .copyright-text p a {
-  color: deepskyblue !important; }
+  color: #11898c !important; }
 
 .footer-menu li {
   display: inline-block;
   margin-left: 20px; }
 
 .footer-menu li:hover a {
-  color: deepskyblue !important; }
+  color: #11898c !important; }
 
 .footer-menu li a {
   font-size: 14px;
@@ -661,7 +661,7 @@ contact
 =============
 */
 .reservation .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/gallery/gallery-5.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(17, 137, 140, 0.9), rgba(17, 137, 140, 0.8)), url(../img/gallery/gallery-5.jpg) no-repeat fixed;
   background-size: cover;
   height: 500px; }
   .reservation .jumbotron .for-about {
@@ -672,7 +672,7 @@ contact
     font-family: 'Ruthie', cursive;
     font-size: 6rem; }
     .reservation .jumbotron h1:hover {
-      color: deepskyblue !important;
+      color: #11898c !important;
       transform: scale(1.3);
       transition: 1s; }
   .reservation .jumbotron p {
@@ -681,7 +681,7 @@ contact
     text-transform: capitalize;
     font-family: 'Ruthie', cursive; }
     .reservation .jumbotron p:hover {
-      color: deepskyblue !important;
+      color: #11898c !important;
       transform: scale(1.3);
       transition: 1s; }
 
@@ -740,7 +740,7 @@ textarea {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: deepskyblue !important;
+  background-color: #11898c !important;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -758,7 +758,7 @@ textarea {
   text-transform: capitalize; }
 
 .contact-form input[type="submit"] {
-  background-color: deepskyblue !important;
+  background-color: #11898c !important;
   border: 0px;
   color: white;
   cursor: pointer;
@@ -767,10 +767,10 @@ textarea {
   transition: 0.4s; }
 
 .contact-form input[type="submit"]:hover {
-  background-color: deepskyblue !important; }
+  background-color: #11898c !important; }
 
 .contact-form input:focus, textarea:focus {
-  border-color: deepskyblue !important; }
+  border-color: #11898c !important; }
 
 .section-title {
   position: relative; }
@@ -802,7 +802,7 @@ textarea {
   content: "";
   width: 50px;
   height: 2px;
-  background-color: deepskyblue !important;
+  background-color: #11898c !important;
   bottom: 0;
   left: 50%;
   margin-left: -25px; }
@@ -839,7 +839,7 @@ Posts
     text-align: center;
     justify-content: center; }
   .posts ul li {
-    background: deepskyblue;
+    background: #11898c !important;
     color: #fff;
     font-size: 1.2em;
     padding: .4em 0;
@@ -849,7 +849,7 @@ Posts
     background: none; }
   .posts .current,
   .posts li:hover {
-    background: #333;
+    background: #333 !important;
     color: #fff; }
   .posts #filter {
     display: grid;
@@ -867,11 +867,11 @@ Posts
       color: black;
       transition: all 1s ease-in-out; }
       .posts .item a:hover {
-        color: deepskyblue !important; }
+        color: #11898c !important; }
     .posts .item .post-link {
       transition: all 1s ease-in-out; }
       .posts .item .post-link:hover {
-        color: deepskyblue !important;
+        color: #11898c !important;
         background-color: white; }
     .posts .item .item-img {
       border: 2px solid rgba(0, 0, 0, 0.7);
@@ -891,7 +891,7 @@ Posts
 @media (min-width: 1000px) and (max-width: 1199px) {
   .about-us .about-img .background-img {
     width: 130%;
-    background: deepskyblue;
+    background: #11898c !important;
     position: absolute;
     left: -92px;
     content: "'";
@@ -927,7 +927,7 @@ Posts
 
   .about-us .about-img .background-img {
     width: 139%;
-    background: deepskyblue;
+    background: #11898c !important;
     position: absolute;
     left: -92px;
     content: "'";
@@ -1008,7 +1008,7 @@ Posts
 
   .about-us .about-img .background-img {
     width: 82%;
-    background: deepskyblue;
+    background: #11898c !important;
     position: absolute;
     left: 39px;
     content: "'";
@@ -1092,7 +1092,7 @@ Posts
 
   .about-us .about-img .background-img {
     width: 82%;
-    background: deepskyblue;
+    background: #11898c !important;
     position: absolute;
     left: 39px;
     content: "'";
@@ -1186,7 +1186,7 @@ Posts
 
   .about-us .about-img .background-img {
     width: 82%;
-    background: deepskyblue;
+    background: #11898c !important;
     position: absolute;
     left: 39px;
     content: "'";
