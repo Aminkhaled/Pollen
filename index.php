@@ -122,17 +122,17 @@ get_header();
             <div class="swiper-container gallery-thumbs">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class="u3" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-1.jpg" alt="">
+                        <img class="u3" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-2.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="u1" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-3.jpg" alt="">
+                        <img class="u1" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="u2" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-1.jpg" alt="">
+                        <img class="u2" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-3.jpg" alt="">
                     </div>
 
                     <div class="swiper-slide">
-                        <img class="u4" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-3.jpg" alt="">
+                        <img class="u4" src="<?php bloginfo('template_directory'); ?>/vendor/img/gallery/pro-2.jpg" alt="">
                     </div>
 
                 </div>
